@@ -1,10 +1,19 @@
-# AlmirVjezba
+### Pojasnjenje
+
+Pravimo aplikaciju za aprate koji mjere potrosnju energije jednog domacinstva. 
+Znaci, korisnik se uloguje svaki mjesec i unosi ocitanja sa metra za predhodni mjesec. Nas ne interesuje ako ce slagati i sl. jer vani je ovo regulisano velikim kaznama.
+
+#### Za svaki issue napravi branch i kad zavrsis uradi pull request na moje ime.
+### NEMOJ RADITI NISTA VISE OD ONOGA STO SAM TI NAPISAO DA RADIS. NECE ME IMPRESIONIRATI AKO URADIS LOGIN I REGISTRACIJU JER KAD BUDE TO TREBALO NAPRAVIT CU TI ISSUE ZA TO.
+
 
 # Zadatak 1
 
+
 - Napravi VisualStudio web projekat, EMPTY!!!
 - U njemu dodaj ClassLibrary sa nazivom "AlmirVjezbaContext".
-- U tom projektu, koristeci CodeFirst pristup, napravi slijedece tabele:
+- U tom projektu, koristeci CodeFirst pristup, napravi slijedece tabele (nisam ti definisao Foreign Keys zato sto hocu da ih sam skontas):
+
 
 User:
 
@@ -70,3 +79,7 @@ Meter:
 | Name | string not null |
 | DateOfInstallation | datetime not null |
 
+
+
+
+- Napuni podatke u bazi koristeci Procedure ili Insert statemente. Kada budes commitao kod, napravi .txt file negdje u projektu i zalijepi ih tamo.
