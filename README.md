@@ -68,5 +68,5 @@ Meter:
 | ------ | ------ |
 | Id | long not null auto increment |
 | Name | string not null |
-| DateOfInstallation | Date not null |
+| DateOfInstallation | datetime not null |
 
