@@ -2,14 +2,13 @@
 
 # Zadatak 1
 
-Napravi VisualStudio web projekat, EMPTY!!!
-
-U njemu dodaj ClassLibrary sa nazivom "AlmirVjezbaContext".
-
-
-U tom projektu, koristeci CodeFirst pristup, napravi slijedece tabele:
+- Napravi VisualStudio web projekat, EMPTY!!!
+- U njemu dodaj ClassLibrary sa nazivom "AlmirVjezbaContext".
+- U tom projektu, koristeci CodeFirst pristup, napravi slijedece tabele:
 
 User:
+
+
 | Name | Type |
 | ------ | ------ |
 | Id | long not null auto increment |
@@ -20,6 +19,8 @@ User:
 
 
 Role: 
+
+
 | Name | Type |
 | ------ | ------ |
 | Id | long not null |
@@ -27,6 +28,8 @@ Role:
 
 
 Address: 
+
+
 | Name | Type |
 | ------ | ------ |
 | Id | long not null auto increment |
@@ -37,6 +40,8 @@ Address:
 
 
 MeterManufacturer: 
+
+
 | Name | Type |
 | ------ | ------ |
 | Id | long not null auto increment |
@@ -46,8 +51,10 @@ MeterManufacturer:
 | Address | string |
 
 
-(type of meter e.g. gas, electricity etc.)
-MeterType: 
+
+MeterType: (type of meter e.g. gas, electricity etc.)
+
+
 | Name | Type |
 | ------ | ------ |
 | Id | long not null auto increment |
@@ -55,6 +62,8 @@ MeterType:
 
 
 Meter: 
+
+
 | Name | Type |
 | ------ | ------ |
 | Id | long not null auto increment |
