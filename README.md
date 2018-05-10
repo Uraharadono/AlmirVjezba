@@ -1,6 +1,6 @@
 ### Pojasnjenje
 
-Pravimo aplikaciju za aprate koji mjere potrosnju energije jednog domacinstva. 
+Pravimo aplikaciju za aparate koji mjere potrosnju energije jednog domacinstva (struja, voda, plin itd.). 
 Znaci, korisnik se uloguje svaki mjesec i unosi ocitanja sa metra za predhodni mjesec. Nas ne interesuje ako ce slagati i sl. jer vani je ovo regulisano velikim kaznama.
 
 #### Za svaki issue napravi branch i kad zavrsis uradi pull request na moje ime.
