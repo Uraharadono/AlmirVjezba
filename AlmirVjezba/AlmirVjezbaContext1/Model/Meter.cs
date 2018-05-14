@@ -17,6 +17,7 @@ namespace AlmirVjezbaContext1.Model
         public long MeterTypeId { get; set; }
         public MeterManufacturer MeterManufacturer { get; set; }
         public long MeterManufacturerId { get; set; }
-
+        public User User { get; set; }
+        public long UserId { get; set; }
     }
 }
