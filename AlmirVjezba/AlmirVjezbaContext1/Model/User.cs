@@ -13,6 +13,9 @@ namespace AlmirVjezbaContext1.Model
         public string Name { get; set; }
         public string LastName { get; set; }
         public int Gender { get; set; }
-
+        public Role UserRole { get; set; }
+        public long UserRoleId { get; set; }
+        public Address UserAddress { get; set; }
+        public long UserAddressId { get; set; }
     }
 }

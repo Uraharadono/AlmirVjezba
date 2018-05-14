@@ -13,5 +13,10 @@ namespace AlmirVjezbaContext1.Model
         public bool IsDeleted { get; set; }
         public string Name { get; set; }
         public DateTime DateOfInstallation { get; set; }
+        public MeterType MeterType { get; set; }
+        public long MeterTypeId { get; set; }
+        public MeterManufacturer MeterManufacturer { get; set; }
+        public long MeterManufacturerId { get; set; }
+
     }
 }

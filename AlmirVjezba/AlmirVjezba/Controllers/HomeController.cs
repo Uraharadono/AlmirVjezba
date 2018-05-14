@@ -15,6 +15,7 @@ namespace AlmirVjezba.Controllers
 
         public ActionResult Index()
         {
+            Db.User.Find(0);
             return View();
         }
     }

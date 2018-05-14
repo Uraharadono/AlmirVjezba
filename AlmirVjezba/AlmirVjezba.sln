@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlmirVjezba", "AlmirVjezba\AlmirVjezba.csproj", "{64F3E843-FFD8-4326-820D-ACA47FC42B97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1F69014-34E4-4A0C-91A5-AFD153F56307} = {E1F69014-34E4-4A0C-91A5-AFD153F56307}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlmirVjezbaContext1", "AlmirVjezbaContext1\AlmirVjezbaContext1.csproj", "{E1F69014-34E4-4A0C-91A5-AFD153F56307}"
 EndProject
