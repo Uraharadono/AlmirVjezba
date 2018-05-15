@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Meter.cs" />
     <Compile Include="Models\MeterManufacturer.cs" />
