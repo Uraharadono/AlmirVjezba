@@ -117,15 +117,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Database.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -138,9 +137,9 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AlmirVjezbaContext1\AlmirVjezbaContext1.csproj">
-      <Project>{e1f69014-34e4-4a0c-91a5-afd153f56307}</Project>
-      <Name>AlmirVjezbaContext1</Name>
+    <ProjectReference Include="..\AlmirVjezbaContext\AlmirVjezbaContext.csproj">
+      <Project>{cc6a46ac-b0ee-4b51-83ab-9a080d556acc}</Project>
+      <Name>AlmirVjezbaContext</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

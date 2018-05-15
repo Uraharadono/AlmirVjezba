@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlmirVjezbaContext1.Helper
+namespace AlmirVjezbaContext.Interfaces
 {
     public class IEntity
     {

@@ -4,10 +4,11 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AlmirVjezbaContext1.Model;
-namespace AlmirVjezbaContext1.DAL
+using AlmirVjezbaContext.Models;
+
+namespace AlmirVjezbaContext.Context
 {
-    public class MyContext : DbContext
+    public class MyContext:DbContext
     {
         public MyContext() :
           base("Name=MyConnectionsting")

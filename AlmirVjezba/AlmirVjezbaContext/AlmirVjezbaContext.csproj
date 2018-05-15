@@ -47,6 +47,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\MyContext.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\Meter.cs" />
+    <Compile Include="Models\MeterManufacturer.cs" />
+    <Compile Include="Models\MeterType.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

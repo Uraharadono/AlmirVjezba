@@ -1,13 +1,13 @@
-﻿using AlmirVjezbaContext1.Helper;
+﻿using AlmirVjezbaContext.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlmirVjezbaContext1.Model
+namespace AlmirVjezbaContext.Models
 {
-    public class Address:IEntity 
+    public class Address : IEntity
     {
         public long Id { get; set; }
         public bool IsDeleted { get; set; }
