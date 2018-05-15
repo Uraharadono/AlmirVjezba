@@ -11,10 +11,8 @@ namespace AlmirVjezbaContext.Context
     public class MyContext : DbContext
     {
         public MyContext() :
-          base("Name=MyConnectionsting")
+        base("Name=MyConnectionsting")
         {
-
-
         }
         public DbSet<User> User { get; set; }
         public DbSet<Role> Role { get; set; }
