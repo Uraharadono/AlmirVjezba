@@ -8,7 +8,7 @@ using AlmirVjezbaContext.Models;
 
 namespace AlmirVjezbaContext.Context
 {
-    public class MyContext:DbContext
+    public class MyContext : DbContext
     {
         public MyContext() :
           base("Name=MyConnectionsting")
