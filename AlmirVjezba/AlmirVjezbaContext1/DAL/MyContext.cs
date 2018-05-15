@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 using AlmirVjezbaContext1.Model;
 namespace AlmirVjezbaContext1.DAL
 {
-    public class MyContext:DbContext
+    public class MyContext : DbContext
     {
-
-
         public MyContext() :
-          base("Name=MojConnectionString")
+          base("Name=MyConnectionsting")
         {
 
 
