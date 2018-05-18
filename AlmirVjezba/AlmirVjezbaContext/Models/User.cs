@@ -18,8 +18,8 @@ namespace AlmirVjezbaContext.Models
         public int Gender { get; set; }
         public List<Role> UserRole { get; set; }
         public long UserRoleId { get; set; }
-        public List<Address> UserAddress { get; set; }
-        [ForeignKey("UserAddressId")]
         public long UserAddressId { get; set; }
+        [ForeignKey("UserAddressId")]
+        public List<Address> UserAddress { get; set; }
     }
 }

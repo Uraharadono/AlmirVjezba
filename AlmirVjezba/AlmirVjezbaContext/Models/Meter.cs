@@ -15,14 +15,15 @@ namespace AlmirVjezbaContext.Models
         public bool IsDeleted { get; set; }
         public string Name { get; set; }
         public DateTime DateOfInstallation { get; set; }
-        public List<MeterType> MeterType { get; set; }
-        [ForeignKey("MeterTypeId")]
         public long MeterTypeId { get; set; }
-        public List<MeterManufacturer> MeterManufacturer { get; set; }
-        [ForeignKey("MeterManufacturerId")]
+        [ForeignKey("MeterTypeId")]
+        public MeterType MeterType { get; set; }
         public long MeterManufacturerId { get; set; }
-        public User User { get; set; }
-        [ForeignKey("UserId")]
+        [ForeignKey("MeterManufacturerId")]
+        public MeterManufacturer MeterManufacturer { get; set; }
         public long UserId { get; set; }
+        [ForeignKey("UserId")]
+        public User User { get; set; }
+
     }
 }
