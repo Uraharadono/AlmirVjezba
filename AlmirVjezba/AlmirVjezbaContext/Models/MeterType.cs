@@ -14,5 +14,6 @@ namespace AlmirVjezbaContext.Models
         public long Id { get; set; }
         public bool IsDeleted { get; set; }
         public string Name { get; set; }
+        public List<Meter> Meters { get; set; }
     }
 }

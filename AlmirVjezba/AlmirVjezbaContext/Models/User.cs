@@ -16,8 +16,9 @@ namespace AlmirVjezbaContext.Models
         public string Name { get; set; }
         public string LastName { get; set; }
         public int Gender { get; set; }
-        public List<Role> UserRole { get; set; }
         public long UserRoleId { get; set; }
+        [ForeignKey("UserRoleId")]
+        public List<Role> UserRole { get; set; }
         public long UserAddressId { get; set; }
         [ForeignKey("UserAddressId")]
         public List<Address> UserAddress { get; set; }
